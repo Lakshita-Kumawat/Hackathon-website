@@ -117,6 +117,10 @@ ul {
     border-radius: 5px;
 }
 
+.link a:hover{
+    background: linear-gradient(160deg,rgb(235, 62, 88),rgb(38, 178, 221));
+}
+
 @media (max-width:992px) {
     .content {
         margin: 2rem 4rem 2rem 5rem;
@@ -156,11 +160,11 @@ ul {
 
 @media (max-width:600px) {
     #logo {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #head {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .item .conta {
@@ -169,20 +173,20 @@ ul {
     }
 
     .content {
-        margin: 2rem 2.6rem;
+        margin: 2rem 2.2rem;
     }
 
     .item {
-        width: 75%;
+        width: 85%;
     }
 
     .item img {
-        height: 16rem;
+        height: 15rem;
         width: 90%;
     }
 
     .timing{
-        height: 9rem;
+        height: 8rem;
     }
 
     .itemconta h3{
