@@ -7,12 +7,6 @@ body {
     background-color: rgb(51, 51, 51);
 }
 
-#color {
-    /*background: linear-gradient(180deg,rgb(10, 10, 10),white);*/
-    position: relative;
-    top: -10px;
-}
-
 @font-face {
     font-family: 'anurati';
     src: url(Anurati-Regular.otf);
@@ -159,8 +153,9 @@ ul {
 }
 
 @media (max-width:600px) {
-    #logo {
-        font-size: 1.5rem;
+    #logo h1{
+        font-size: 2rem;
+        padding-left: 0.8rem;
     }
 
     #head {
@@ -181,8 +176,8 @@ ul {
     }
 
     .item img {
-        height: 15rem;
-        width: 90%;
+        height: 16rem;
+        width: 95%;
     }
 
     .timing{
