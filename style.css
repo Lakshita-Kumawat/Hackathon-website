@@ -130,6 +130,10 @@ ul {
 }
 
 @media (max-width:768px) {
+    #logo h1{
+        font-size: 1.5rem;
+        padding-left: 0.8rem;
+    }
     #head {
         font-size: 2.5rem;
     }
@@ -154,12 +158,12 @@ ul {
 
 @media (max-width:600px) {
     #logo h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 0.8rem;
     }
 
     #head {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .item .conta {
