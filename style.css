@@ -99,7 +99,7 @@ ul {
     }
 
     .item {
-        width: 80%;
+        width: 85%;
     }
 
     .item img {
@@ -119,15 +119,22 @@ ul {
     .content {
         margin: 2rem 4rem;
     }
+    .conta{
+        justify-content: space-evenly;
+    }
 
     .item {
-        width: 85%;
+        width: 95%;
         margin: 1rem auto;
     }
 
     .item img {
-        width: 90%;
+        width: 60%;
         height: 18rem;
+    }
+
+    .itemconta{
+        width: 30%;
     }
 
     .link {
@@ -160,7 +167,7 @@ ul {
     }
 
     .item img {
-        height: 16rem;
+        height: 14.5rem;
         width: 90%;
     }
 

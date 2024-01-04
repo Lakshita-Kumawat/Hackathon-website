@@ -70,7 +70,7 @@
     }
 }
 
-@media(max-width:400px){
+@media(max-width:600px){
     #logo{
         font-size: 0.8rem;
     }
@@ -78,11 +78,12 @@
         width: 80%;
     }
     #card h2{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     #card form{
         margin:0;
         width: 100%;
+        padding: 0.7rem;
     }
     #card button{
         
