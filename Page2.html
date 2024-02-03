@@ -22,16 +22,16 @@
                 </div>
                 <form action="/" method="GET">
                     <label for="username">Name:</label>
-                    <input type="text" name="user" id="username"/>
+                    <input type="text" name="user" id="username" required/>
 
                     <label for="useremail">E-mail:</label>
-                    <input type="email" name="useremail" />
+                    <input type="email" name="useremail" required/>
 
-                    <label for="userpass">Pasword:</label>
-                    <input type="password" name="userpass" />
+                    <label for="userpass">Password:</label>
+                    <input type="password" name="userpass" required minlength="8"/>
 
                     <label for="userno">Age:</label>
-                    <input type="number" step="1" name="userno" />
+                    <input type="number" step="1" name="userno" required min="14" max="99"/>
 
                     <button>Submit</button>
                     <h4>Note: This is just a fake form.</h4>
