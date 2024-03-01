@@ -1,8 +1,8 @@
 #head {
     margin-top: 0.6rem;
-    color: rgb(202, 103, 120);
-    text-shadow: 3px 2px 6px brown;
+    color:#82b3c7;
     text-align: center;
+    text-shadow: 2px 2px 3px rgb(86 133 137 / 71%);
     font-size: 3rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -13,8 +13,12 @@
     margin: 2rem 5rem 2rem 7rem;
 }
 
+header p{
+    color: rgb(158, 149, 149);
+}
+
 #heading {
-    color: rgb(216, 46, 46);
+    color: rgb(230, 54, 48);
     text-align: center;
     font-size: 1.9rem;
     margin-top: 0.4rem;
@@ -28,7 +32,7 @@ ul {
 .item {
     width: 75%;
     margin: 2rem auto;
-    background: linear-gradient(60deg, rgb(99, 77, 81), rgb(79, 89, 92), rgb(114, 73, 73));
+    background: linear-gradient(190deg, rgba(128, 200, 218, 0.46), #453a3a);
     border-radius: 10px;
 }
 
@@ -50,7 +54,7 @@ ul {
 }
 
 .timing {
-    background: linear-gradient(180deg, rgba(233, 30, 99, 0.31), gray);
+    background: linear-gradient(60deg, rgba(128, 200, 218, 0.46), #4f4949);
     border-left: 5px solid rgb(31, 34, 34);
     width: 100%;
     border-radius: 10px;
@@ -82,7 +86,7 @@ ul {
 }
 
 .link a {
-    background: linear-gradient(160deg, #bb4873, #59938d);
+    background:linear-gradient(45deg,#6e97ab,#7454cf);
     color: white;
     text-decoration: none;
     padding: 0.4rem;
@@ -90,7 +94,7 @@ ul {
 }
 
 .link a:hover{
-    background: linear-gradient(160deg,rgb(235, 62, 88),rgb(38, 178, 221));
+    background: linear-gradient(45deg,#608698,#6b48cb);
 }
 
 @media (max-width:992px) {

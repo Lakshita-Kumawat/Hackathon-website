@@ -2,7 +2,7 @@
     margin: 3rem auto;
     width: 50%;
     border-radius: 8px;
-    background: linear-gradient(180deg, rgba(233, 30, 98, 0.394), gray);
+    background: linear-gradient(180deg, rgb(147 234 255 / 46%), #453a3a);
 
 }
 
@@ -12,13 +12,12 @@
     padding: 1rem;
     font-size: 2.5rem;
     text-align: center;
-    color:rgb(165, 57, 89) ;
-    text-shadow: 2px 2px 3px rgb(46, 45, 45);
+    color:rgb(151 192 255) ;
+    text-shadow: 2px 2px 3px rgb(54 66 67);
     letter-spacing: 5px;
 }
 
 #card form{
-    /*background-color: white;*/
     width: 70%;
     padding: 1rem;
     margin: auto;
@@ -39,7 +38,7 @@
 }
 
 #card input:focus{
-    background-color: pink;
+    background-color: rgb(173, 232, 229);
 }
 
 #card button{
@@ -47,7 +46,7 @@
     margin: auto;
     padding: 0.2rem 0.7rem;
     font-size: 1rem;
-    background:linear-gradient(45deg,#b55274,#bf1717);;
+    background:linear-gradient(45deg,#6b95a9,#7644ff);
     border-radius: 5px;
 }
 
